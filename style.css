@@ -1,5 +1,7 @@
 * {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  /*border: solid red 1px;*/
+}
 
 .navbar {
   margin-bottom: 0;
@@ -56,12 +58,25 @@ h5 {
   font-size: 47px; }
 
 #hero {
-  background-color: #fff;
-  margin: auto;
-  padding: 75px 75px 75px 75px;
-  display: flex;
-   }
+    background-color: #fff;
+    margin: auto;
+    padding: 75px;
+    display: flex;
+  }
 
+  #hero .container .row {
+    display: flex;
+  }
+
+  .hero_section {
+    display: flex;
+    flex: 1;
+
+  }
+
+  .hero_text {
+    margin: auto
+  }
 #section-1 {
   background-color: #5291bc;
   padding: 25px 25px 25px 25px;
@@ -90,7 +105,7 @@ footer ul li {
 }
 .newsletter {
   color: #fff; }
-  
+
   .white_text{
     color: #ffffff;
   }
@@ -117,14 +132,14 @@ footer ul li {
   position: relative;
   background: #202020;
   width: 45%;
-  height: 0;
-  padding-top: 95%;
-  margin: 0 auto;
+  /*height: 0;*/
+  padding-top: 90%;
+  margin: auto;
   border-radius: 3em;
 }
 
 @media screen and (max-width: 770px) {
-  .iphone {
+  .iphone-wrap {
     display: none;
     /*visibility: hidden;*/
   }
